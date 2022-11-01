@@ -91,7 +91,7 @@ a:hover{
     color:#e5e7eb;
 }
 
-.hero-button{
+.button{
     background-color: #3882f6;
     height: 2rem;
     border-radius: .5rem;
@@ -143,34 +143,54 @@ a:hover{
 
  }
  .quote{
-    width: 80%;
+    width: 60%;
     height: 80%;
     margin: auto;
+    
+
  }
  .quote-text{
     font-size: 36px;
     font-weight: lighter ;
     font-style: italic;
+    color: #1f2937;
+    text-align: left;
+    
  }
  .quote-author{
-    font-size: medium;
+    font-size:large;
     font-weight: bold;
+    text-align: right;
     
  }
 
  .main-action{
     background-color: white;
-    height: 200px;
+    height: 300px;
     margin: auto;
+    display: flex;
  }
 
 
 .action-item{
     background-color: #3882f6;
     width: 80%;
+    height: 200px;
     display: flex;
     margin: 50px auto;
-    border-radius: 25px;
+    border-radius: 5px;
     justify-content: space-around;
-    color: #e5e7eb;
+    color: white;
+    align-items: center;
+}
+.action-button{
+    border: 1px solid white;
+
+}
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px;
 }
