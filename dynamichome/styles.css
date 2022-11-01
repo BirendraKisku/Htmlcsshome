@@ -1,0 +1,182 @@
+*{
+    margin:auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Roboto', 'sans-serif';
+    background-color: white;
+    position: relative;
+}
+
+ .header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around; 
+    padding: 50px;
+ }
+
+ .header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+
+ }
+
+
+.nav-menu>li{
+    display: inline;
+    margin-right: 50px;
+}
+.nav-menu > li :last-of-type{
+    margin-right: 0px;
+}
+
+a:link, a:visited{
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+ .menu-item{
+    color:white ;
+ }
+
+ .hero{
+    background-color: #1f2937;
+    display: flex;
+    color: #f9faf8;
+    height: 400px;
+    padding: 50px;
+ }
+.hero-content{
+    width: 50%;
+}
+.hero-content >*{
+    width: auto;
+}
+ .hero-image{
+    height: 50%;
+    background-color: grey ;
+    flex: 1;
+    text-align: center;
+ }
+
+.hero-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.hero-desc{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.button{
+    background-color: #3882f6;
+    height: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    padding: .5rem;
+    width: fit-content; 
+}
+.hero-button{
+    margin-left: 0px;
+}
+ .main-content{
+    background-color: #f9faf8;
+    height: 500px;
+ }
+.main-content >*{
+    padding: 5px;
+}
+.info{
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 50px;
+    
+}
+.container-items{
+    display: flex;
+    padding: 0px 100px;
+}
+
+ .box-container{
+    width: auto;
+    text-align: center;
+    margin: auto;
+ }
+ .box-container >p{
+    width: 200px;
+ }
+.box{
+    height: 200px;
+    width: 200px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+ .main-quote{
+    background-color: #e5e7eb ;
+    height: 200px;
+
+ }
+ .quote{
+    width: 60%;
+    height: 80%;
+    padding: 1%;
+    
+
+ }
+ .quote-text{
+    font-size: 36px;
+    font-weight: lighter ;
+    font-style: italic;
+    color: #1f2937;
+    text-align: left;
+    
+ }
+ .quote-author{
+    font-size:large;
+    font-weight: bold;
+    text-align: right;
+    width: auto;
+    
+ }
+
+ .main-action{
+    background-color: white;
+    height: 300px;
+    margin: auto;
+    display: flex;
+ }
+
+
+.action-item{
+    background-color: #3882f6;
+    width: 80%;
+    height: 200px;
+    display: flex;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+}
+.action-item-content > *{
+    width: auto;
+}
+.action-button{
+    border: 1px solid white;
+    width: 10%;
+}
+footer{
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 50px;
+}
