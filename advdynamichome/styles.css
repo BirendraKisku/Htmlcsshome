@@ -53,18 +53,34 @@
 }
 
 
-/* Tablet styles*/
-
-@media only screen and (min-width:401px) and (max-width :900px){
-    body{
-        background-color: #f5cf8e;
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .signup,
+    .feature1,
+    .feature2,
+    .feature3 {
+      width: 50%;
     }
-}
-
-/*Desktop style */
-
-@media only screen and (min-width:961px){
-    body{
-        background-color: #b2d6ff;
+  }
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+      width: 960px;
+      margin: 0 auto;
     }
-}
+    .feature1,
+    .feature2,
+    .feature3 {
+      width: 33.3%;
+    }
+    .header {
+      height: 400px;
+    }
+    .signup {
+        height: 200px;
+        order: 1;
+      }
+      .content {
+        order: 2;
+      }
+  }
